@@ -34,7 +34,7 @@ function BlogPost() {
     <div className='w-full flex flex-col justify-center items-center m-4'>
       {!editPost && <>
       <h2 className='text-xl font-bold mb-4'>{blogpost.title}</h2>
-      <div className='flex flex-col justify-between gap-3 md:w-96'>
+      <div className='flex flex-col justify-between gap-3'>
         <div className='flex flex-col gap-3'>
           <p className='h-full'>{blogpost.content}</p>
           <p>Autor: {blogpost.author}</p>
