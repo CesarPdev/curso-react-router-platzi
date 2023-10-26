@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/curso-react-router-platzi/static/css/main.bd5c1498.css",
-    "main.js": "/curso-react-router-platzi/static/js/main.605a5103.js",
+    "main.css": "/curso-react-router-platzi/static/css/main.b48b6c92.css",
+    "main.js": "/curso-react-router-platzi/static/js/main.828c98b2.js",
     "static/js/787.4aa2466c.chunk.js": "/curso-react-router-platzi/static/js/787.4aa2466c.chunk.js",
     "index.html": "/curso-react-router-platzi/index.html",
-    "main.bd5c1498.css.map": "/curso-react-router-platzi/static/css/main.bd5c1498.css.map",
-    "main.605a5103.js.map": "/curso-react-router-platzi/static/js/main.605a5103.js.map",
+    "main.b48b6c92.css.map": "/curso-react-router-platzi/static/css/main.b48b6c92.css.map",
+    "main.828c98b2.js.map": "/curso-react-router-platzi/static/js/main.828c98b2.js.map",
     "787.4aa2466c.chunk.js.map": "/curso-react-router-platzi/static/js/787.4aa2466c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd5c1498.css",
-    "static/js/main.605a5103.js"
+    "static/css/main.b48b6c92.css",
+    "static/js/main.828c98b2.js"
   ]
 }
