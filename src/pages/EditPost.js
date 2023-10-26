@@ -17,12 +17,12 @@ function EditPost({setEditPost, oldContent}) {
     };
 
     return (
-        <form className="flex flex-col items-center justify-center ml-8 md:w-full md:mx-8" onSubmit={handleSubmit}>
+        <form className="flex flex-col items-center justify-center w-full" onSubmit={handleSubmit}>
             <h1 className="text-xl font-bold">{blogpost.title}</h1>
-            <label className="flex flex-col mt-2">
+            <label className="flex flex-col mt-2 w-full">
                 Contenido:
                 <textarea
-                    className="border-none rounded-md mt-1 px-2 w-full h-32 bg-sky-200"
+                    className="border-none rounded-md mt-1 p-2 h-96 bg-sky-200"
                     value={content}
                     name='content'
                     onChange={e => setContent(e.target.value)}

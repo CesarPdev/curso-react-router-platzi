@@ -39,7 +39,9 @@ function BlogPage() {
     }
       <Outlet />
       {createPost &&
+      <div className='flex justify-center w-full'>
         <CreatePost setCreatePost={setCreatePost} />
+      </div>
       }
     </section>
   </div>

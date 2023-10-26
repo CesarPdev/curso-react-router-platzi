@@ -28,7 +28,7 @@ function CreatePost({setCreatePost}) {
     };
 
     return (
-        <form className="flex flex-col items-center justify-center ml-8 md:w-full md:mx-8" onSubmit={handleSubmit}>
+        <form className="flex flex-col items-center justify-center mx-8 w-full md:w-3/4" onSubmit={handleSubmit}>
             <h1 className="text-xl font-bold">Crea tu próximo post</h1>
             <label className="flex gap-1 m-2">
                 Título:
@@ -38,12 +38,12 @@ function CreatePost({setCreatePost}) {
                     value={title}
                     name='title'
                     onChange={e => setTitle(e.target.value)}
-                /> <br />
+                />
             </label>
-            <label className="flex flex-col mt-2">
+            <label className="flex flex-col mt-2 w-full h-full">
                 Contenido:
                 <textarea
-                    className="border-none rounded-md mt-1 px-2 h-32 w-80 bg-sky-200"
+                    className="border-none rounded-md mt-1 p-2 h-96 bg-sky-200"
                     value={content}
                     name='content'
                     onChange={e => setContent(e.target.value)}
