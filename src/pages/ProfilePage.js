@@ -13,7 +13,7 @@ function ProfilePage() {
   };
 
   return (
-    <div className='flex flex-col h-screen items-center bg-gradient-to-b from-sky-500 to-indigo-500'>
+    <div className='flex flex-col h-screen items-center bg-gradient-to-b from-sky-500 to-white'>
         <h1 className='text-3xl mb-3 font-bold pt-16'>Profile</h1>
         <p>Bienvenido, {auth.user.userName}</p>
     </div>

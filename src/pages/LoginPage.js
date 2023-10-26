@@ -19,7 +19,7 @@ function LoginPage() {
 
   return (
     <>
-      <div className='flex flex-col h-screen items-center bg-gradient-to-b from-sky-500 to-indigo-500'>
+      <div className='flex flex-col h-screen items-center bg-gradient-to-b from-sky-500 to-white'>
           <h1 className='text-3xl font-bold mb-4 pt-16'>Login</h1>
         <form
           className='flex flex-col lg:flex-row items-center'
